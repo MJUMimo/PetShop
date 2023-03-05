@@ -149,8 +149,5 @@ This sample uses the following library.
 </tbody>
 </table>
 
-# YouTube video for the website
 
-
-[![Everything Is AWESOME](https://img.youtube.com/vi/yjawzRhKpOs/0.jpg)](https://www.youtube.com/watch?v=yjawzRhKpOs "Vue.Js Website")
 
