@@ -28,36 +28,28 @@
                 style="color: white"
                 aria-current="page"
                 to="/"
-                >Home</router-link
+                >HOME</router-link
               >
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/products"
-                >Products</router-link
+                >PRODUCTS</router-link
               >
             </li>
-            <li class="nav-item">
-              <router-link class="nav-link" v-if="CheckAuth" to="/myproducts"
-                >My Products</router-link
-              >
-            </li>
+            
             <li class="nav-item">
               <router-link class="nav-link" v-if="CheckAuth == null" to="/login"
-                >Log In</router-link
+                >LOG IN</router-link
               >
             </li>
-            <li class="nav-item">
-              <router-link class="nav-link" v-if="CheckAuth" to="/orders"
-                >Orders</router-link
-              >
-            </li>
+            
             <li class="nav-item">
               <a
                 class="nav-link"
                 style="cursor: pointer"
                 v-if="CheckAuth"
                 v-on:click="logout"
-                >Logout</a
+                >LOGOUT</a
               >
             </li>
             <li>

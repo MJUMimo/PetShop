@@ -8,17 +8,17 @@
             <br />
 
             <p>
-              No. 1 of #Gaming in Tunisia, Gamers PCs & Pro Stations,
-              accessories and components, the cheapest prices Telephone:
+              Love Pets, Love PetShop-CNX
 
-              <br />Prompay : 063-7875743
+              <br />Tel : 062-523-9874
             </p>
           </div>
 
           <div class="col">
             <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of what's new and exciting from us.</p>
+              <h5>Subscribe to our newslette.r</h5>
+              <p>The Best Promotions from PetShop-CNX
+              </p>
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden"
                   >Email address</label

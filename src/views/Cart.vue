@@ -93,7 +93,7 @@
                     style="font-weight: 500"
                   >
                     <p class="mb-2">Subtotal</p>
-                    <p class="mb-2">{{ totalPrice - 7 }} BAHT</p>
+                    <p class="mb-2">{{ totalPrice-120}} BAHT</p>
                   </div>
 
                   <div
@@ -101,7 +101,7 @@
                     style="font-weight: 500"
                   >
                     <p class="mb-0">Shipping</p>
-                    <p class="mb-0">7 BAHT</p>
+                    <p class="mb-0">120 BAHT</p>
                   </div>
 
                   <hr class="my-4" />
@@ -310,14 +310,15 @@ export default {
     };
   },
   computed: {
+    
     totalPrice() {
       let total = 0;
 
       for (let item of this.$store.state.cart) {
         total += item.totalPrice;
       }
-      total = total + 7;
-      return total.toFixed(2);
+      total = total+120;
+      return total;
     },
   },
   methods: {

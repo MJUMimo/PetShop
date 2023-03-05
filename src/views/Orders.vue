@@ -233,9 +233,9 @@
                               ><br />
                               <small>{{ item.brand }}</small>
                             </td>
-                            <td class="text-center">{{ item.price }} DT</td>
+                            <td class="text-center">{{ item.price }}  BAHT</td>
                             <td class="text-center">{{ item.quantity }}</td>
-                            <td class="text-right">{{ item.totalPrice }} DT</td>
+                            <td class="text-right">{{ item.totalPrice }}  BAHT</td>
                           </tr>
                         </tbody>
                       </table>
@@ -248,7 +248,7 @@
                           <div class="sub-price">
                             <small>SUBTOTAL</small>
                             <span class="text-inverse"
-                              >{{ productdata.total - 7 }} DT</span
+                              >{{ productdata.total - 30 }} BAHT</span
                             >
                           </div>
                           <div class="sub-price">
@@ -256,7 +256,7 @@
                           </div>
                           <div class="sub-price">
                             <small>SHIPPING</small>
-                            <span class="text-inverse">7 DT</span>
+                            <span class="text-inverse">30 BAHT</span>
                           </div>
                         </div>
                       </div>

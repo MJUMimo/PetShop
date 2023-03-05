@@ -1,3 +1,4 @@
+
 <template>
   <br />
   <div
@@ -189,7 +190,6 @@ import {
 } from "firebase/firestore";
 import router from "../router";
 const db = getFirestore();
-
 export default {
   name: "detailsView",
   data() {
@@ -204,7 +204,6 @@ export default {
         quantity: 1,
         totalPrice: "",
       },
-
       products: [],
       productDetaills: false,
     };
@@ -214,7 +213,6 @@ export default {
     // getDoc(docRef).then((docSnap) => {
     //   if (docSnap.exists()) {
     //     console.log("Document data:", docSnap.data());
-
     //   } else {
     //     console.log("No such document!");
     //   }
@@ -224,7 +222,6 @@ export default {
       collection(db, "products"),
       where("name", "==", this.$route.params.id)
     );
-
     getDocs(q)
       .then((docSnap) => {
         docSnap.forEach((doc) => {
@@ -253,7 +250,6 @@ export default {
     addToCart(item) {
       this.$store.commit("addToCart", item);
     },
-
     Gotocart() {
       router.push("/cart");
       document.getElementById("close").click();
@@ -292,7 +288,6 @@ export default {
   width: 100%;
   overflow: hidden;
 }
-
 .content p {
   font-size: 12px;
 }
@@ -334,7 +329,6 @@ export default {
 .right-side {
   position: relative;
 }
-
 .buttons .btn {
   height: 50px;
   width: 150px;
